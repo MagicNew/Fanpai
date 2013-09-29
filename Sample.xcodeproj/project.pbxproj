@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4747813C12BAA685009933FE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4747813B12BAA685009933FE /* MessageUI.framework */; };
+		6827FFB412930FBB00070136 /* MainWindowPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6827FFB312930FBB00070136 /* MainWindowPad.xib */; };
+		68F349BF1152AA5500D9765C /* PhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F349B81152AA5500D9765C /* PhotoPickerController.m */; };
+		68F349C01152AA5500D9765C /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F349BA1152AA5500D9765C /* Photos.m */; };
+		68F349C11152AA5500D9765C /* LocalImageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F349BC1152AA5500D9765C /* LocalImageRootViewController.m */; };
+		68F349C21152AA5500D9765C /* UIImage+KTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F349BE1152AA5500D9765C /* UIImage+KTCategory.m */; };
+		68FA36A7113193A900A21845 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA36A6113193A900A21845 /* QuartzCore.framework */; };
+		8807BA8117B7357100C352C7 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807BA8017B7357100C352C7 /* icon_57.png */; };
+		8807BA8317B7358200C352C7 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807BA8217B7358200C352C7 /* icon_114.png */; };
+		8807BA8517B7359300C352C7 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807BA8417B7359300C352C7 /* icon_72.png */; };
+		8807BA8717B7359800C352C7 /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8807BA8617B7359800C352C7 /* icon_144.png */; };
+		885DAFB817B3A29000617324 /* KTPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 885DAFAA17B3A29000617324 /* KTPhotoBrowser.bundle */; };
+		885DAFB917B3A29000617324 /* KTPhotoBrowserGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFAD17B3A29000617324 /* KTPhotoBrowserGlobal.m */; };
+		885DAFBA17B3A29000617324 /* KTPhotoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFAF17B3A29000617324 /* KTPhotoScrollViewController.m */; };
+		885DAFBB17B3A29000617324 /* KTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFB117B3A29000617324 /* KTPhotoView.m */; };
+		885DAFBC17B3A29000617324 /* KTThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFB317B3A29000617324 /* KTThumbsView.m */; };
+		885DAFBD17B3A29000617324 /* KTThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFB517B3A29000617324 /* KTThumbsViewController.m */; };
+		885DAFBE17B3A29000617324 /* KTThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFB717B3A29000617324 /* KTThumbView.m */; };
+		885DAFC517B3A58300617324 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DAFC317B3A58300617324 /* RootViewController.m */; };
+		888B02A617B7E16C002D9229 /* libWeChatSDK_armv7_armv7s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B02A317B7E16C002D9229 /* libWeChatSDK_armv7_armv7s.a */; };
+		88954E1D17B69F1E0008FD22 /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88954E1617B69F1E0008FD22 /* camera_icon.png */; };
+		88954E1E17B69F1E0008FD22 /* camera_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 88954E1717B69F1E0008FD22 /* camera_mode.png */; };
+		88C66B1C17C4673200E413C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C66B1B17C4673200E413C1 /* AppDelegate.m */; };
+		88C66B1E17C4A22700E413C1 /* camera_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C66B1D17C4A22700E413C1 /* camera_image.png */; };
+		88C66B2117C4BA0100E413C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C66B2017C4BA0100E413C1 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* 翻拍.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "翻拍.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Sample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_Prefix.pch; sourceTree = "<group>"; };
+		4747813B12BAA685009933FE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6827FFB312930FBB00070136 /* MainWindowPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowPad.xib; sourceTree = "<group>"; };
+		68F349B71152AA5500D9765C /* PhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerController.h; sourceTree = "<group>"; };
+		68F349B81152AA5500D9765C /* PhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerController.m; sourceTree = "<group>"; };
+		68F349B91152AA5500D9765C /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		68F349BA1152AA5500D9765C /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
+		68F349BB1152AA5500D9765C /* LocalImageRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalImageRootViewController.h; sourceTree = "<group>"; };
+		68F349BC1152AA5500D9765C /* LocalImageRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalImageRootViewController.m; sourceTree = "<group>"; };
+		68F349BD1152AA5500D9765C /* UIImage+KTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KTCategory.h"; sourceTree = "<group>"; };
+		68F349BE1152AA5500D9765C /* UIImage+KTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KTCategory.m"; sourceTree = "<group>"; };
+		68FA36A6113193A900A21845 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8807BA8017B7357100C352C7 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57.png; path = ../icon_57.png; sourceTree = "<group>"; };
+		8807BA8217B7358200C352C7 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114.png; path = ../icon_114.png; sourceTree = "<group>"; };
+		8807BA8417B7359300C352C7 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_72.png; path = ../icon_72.png; sourceTree = "<group>"; };
+		8807BA8617B7359800C352C7 /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_144.png; path = ../icon_144.png; sourceTree = "<group>"; };
+		885DAFAA17B3A29000617324 /* KTPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KTPhotoBrowser.bundle; sourceTree = "<group>"; };
+		885DAFAB17B3A29000617324 /* KTPhotoBrowserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserDataSource.h; sourceTree = "<group>"; };
+		885DAFAC17B3A29000617324 /* KTPhotoBrowserGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserGlobal.h; sourceTree = "<group>"; };
+		885DAFAD17B3A29000617324 /* KTPhotoBrowserGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoBrowserGlobal.m; sourceTree = "<group>"; };
+		885DAFAE17B3A29000617324 /* KTPhotoScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoScrollViewController.h; sourceTree = "<group>"; };
+		885DAFAF17B3A29000617324 /* KTPhotoScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoScrollViewController.m; sourceTree = "<group>"; };
+		885DAFB017B3A29000617324 /* KTPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoView.h; sourceTree = "<group>"; };
+		885DAFB117B3A29000617324 /* KTPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoView.m; sourceTree = "<group>"; };
+		885DAFB217B3A29000617324 /* KTThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbsView.h; sourceTree = "<group>"; };
+		885DAFB317B3A29000617324 /* KTThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbsView.m; sourceTree = "<group>"; };
+		885DAFB417B3A29000617324 /* KTThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbsViewController.h; sourceTree = "<group>"; };
+		885DAFB517B3A29000617324 /* KTThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbsViewController.m; sourceTree = "<group>"; };
+		885DAFB617B3A29000617324 /* KTThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbView.h; sourceTree = "<group>"; };
+		885DAFB717B3A29000617324 /* KTThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbView.m; sourceTree = "<group>"; };
+		885DAFC217B3A58200617324 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		885DAFC317B3A58300617324 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		888B02A317B7E16C002D9229 /* libWeChatSDK_armv7_armv7s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK_armv7_armv7s.a; sourceTree = "<group>"; };
+		888B02A417B7E16C002D9229 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		888B02A517B7E16C002D9229 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		88954E1617B69F1E0008FD22 /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
+		88954E1717B69F1E0008FD22 /* camera_mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_mode.png; sourceTree = "<group>"; };
+		88C66B1A17C4673200E413C1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88C66B1B17C4673200E413C1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88C66B1D17C4A22700E413C1 /* camera_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_image.png; sourceTree = "<group>"; };
+		88C66B2017C4BA0100E413C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				68FA36A7113193A900A21845 /* QuartzCore.framework in Frameworks */,
+				4747813C12BAA685009933FE /* MessageUI.framework in Frameworks */,
+				888B02A617B7E16C002D9229 /* libWeChatSDK_armv7_armv7s.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88C66B1A17C4673200E413C1 /* AppDelegate.h */,
+				88C66B1B17C4673200E413C1 /* AppDelegate.m */,
+				885DAFC217B3A58200617324 /* RootViewController.h */,
+				885DAFC317B3A58300617324 /* RootViewController.m */,
+				88954E1517B69F1E0008FD22 /* image */,
+				68F349B61152AA5500D9765C /* LocalImageSample */,
+				888B02A217B7E16C002D9229 /* WeixinSDK */,
+				885DAFA917B3A29000617324 /* KTPhotoBrowser */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* 翻拍.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Sample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				6827FFB312930FBB00070136 /* MainWindowPad.xib */,
+				8D1107310486CEB800E47090 /* Sample-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68FA36A6113193A900A21845 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				4747813B12BAA685009933FE /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F349B61152AA5500D9765C /* LocalImageSample */ = {
+			isa = PBXGroup;
+			children = (
+				68F349BB1152AA5500D9765C /* LocalImageRootViewController.h */,
+				68F349BC1152AA5500D9765C /* LocalImageRootViewController.m */,
+				68F349B71152AA5500D9765C /* PhotoPickerController.h */,
+				68F349B81152AA5500D9765C /* PhotoPickerController.m */,
+				68F349B91152AA5500D9765C /* Photos.h */,
+				68F349BA1152AA5500D9765C /* Photos.m */,
+				68F349BD1152AA5500D9765C /* UIImage+KTCategory.h */,
+				68F349BE1152AA5500D9765C /* UIImage+KTCategory.m */,
+			);
+			path = LocalImageSample;
+			sourceTree = "<group>";
+		};
+		885DAFA917B3A29000617324 /* KTPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				885DAFAA17B3A29000617324 /* KTPhotoBrowser.bundle */,
+				885DAFAB17B3A29000617324 /* KTPhotoBrowserDataSource.h */,
+				885DAFAC17B3A29000617324 /* KTPhotoBrowserGlobal.h */,
+				885DAFAD17B3A29000617324 /* KTPhotoBrowserGlobal.m */,
+				885DAFAE17B3A29000617324 /* KTPhotoScrollViewController.h */,
+				885DAFAF17B3A29000617324 /* KTPhotoScrollViewController.m */,
+				885DAFB017B3A29000617324 /* KTPhotoView.h */,
+				885DAFB117B3A29000617324 /* KTPhotoView.m */,
+				885DAFB217B3A29000617324 /* KTThumbsView.h */,
+				885DAFB317B3A29000617324 /* KTThumbsView.m */,
+				885DAFB417B3A29000617324 /* KTThumbsViewController.h */,
+				885DAFB517B3A29000617324 /* KTThumbsViewController.m */,
+				885DAFB617B3A29000617324 /* KTThumbView.h */,
+				885DAFB717B3A29000617324 /* KTThumbView.m */,
+			);
+			path = KTPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		888B02A217B7E16C002D9229 /* WeixinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				888B02A317B7E16C002D9229 /* libWeChatSDK_armv7_armv7s.a */,
+				888B02A417B7E16C002D9229 /* WXApi.h */,
+				888B02A517B7E16C002D9229 /* WXApiObject.h */,
+			);
+			path = WeixinSDK;
+			sourceTree = "<group>";
+		};
+		88954E1517B69F1E0008FD22 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8807BA8617B7359800C352C7 /* icon_144.png */,
+				8807BA8417B7359300C352C7 /* icon_72.png */,
+				8807BA8217B7358200C352C7 /* icon_114.png */,
+				8807BA8017B7357100C352C7 /* icon_57.png */,
+				88954E1617B69F1E0008FD22 /* camera_icon.png */,
+				88954E1717B69F1E0008FD22 /* camera_mode.png */,
+				88C66B1D17C4A22700E413C1 /* camera_image.png */,
+				88C66B2017C4BA0100E413C1 /* Default-568h@2x.png */,
+			);
+			path = image;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = 1D6058910D05DD3D006BFB54 /* 翻拍.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				6827FFB412930FBB00070136 /* MainWindowPad.xib in Resources */,
+				885DAFB817B3A29000617324 /* KTPhotoBrowser.bundle in Resources */,
+				88954E1D17B69F1E0008FD22 /* camera_icon.png in Resources */,
+				88954E1E17B69F1E0008FD22 /* camera_mode.png in Resources */,
+				8807BA8117B7357100C352C7 /* icon_57.png in Resources */,
+				8807BA8317B7358200C352C7 /* icon_114.png in Resources */,
+				8807BA8517B7359300C352C7 /* icon_72.png in Resources */,
+				8807BA8717B7359800C352C7 /* icon_144.png in Resources */,
+				88C66B1E17C4A22700E413C1 /* camera_image.png in Resources */,
+				88C66B2117C4BA0100E413C1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				68F349BF1152AA5500D9765C /* PhotoPickerController.m in Sources */,
+				68F349C01152AA5500D9765C /* Photos.m in Sources */,
+				68F349C11152AA5500D9765C /* LocalImageRootViewController.m in Sources */,
+				68F349C21152AA5500D9765C /* UIImage+KTCategory.m in Sources */,
+				885DAFB917B3A29000617324 /* KTPhotoBrowserGlobal.m in Sources */,
+				885DAFBA17B3A29000617324 /* KTPhotoScrollViewController.m in Sources */,
+				885DAFBB17B3A29000617324 /* KTPhotoView.m in Sources */,
+				885DAFBC17B3A29000617324 /* KTThumbsView.m in Sources */,
+				885DAFBD17B3A29000617324 /* KTThumbsViewController.m in Sources */,
+				885DAFBE17B3A29000617324 /* KTThumbView.m in Sources */,
+				885DAFC517B3A58300617324 /* RootViewController.m in Sources */,
+				88C66B1C17C4673200E413C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kun Niu (HSLJD8C9YV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kun Niu (HSLJD8C9YV)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sample_Prefix.pch;
+				INFOPLIST_FILE = "Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/WeixinSDK\"",
+				);
+				PRODUCT_NAME = "翻拍";
+				PROVISIONING_PROFILE = "16FCF974-2147-4E43-A6ED-6F2AEE90D241";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16FCF974-2147-4E43-A6ED-6F2AEE90D241";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kun Niu (HSLJD8C9YV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kun Niu (HSLJD8C9YV)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sample_Prefix.pch;
+				INFOPLIST_FILE = "Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/WeixinSDK\"",
+				);
+				PRODUCT_NAME = "翻拍";
+				PROVISIONING_PROFILE = "16FCF974-2147-4E43-A6ED-6F2AEE90D241";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16FCF974-2147-4E43-A6ED-6F2AEE90D241";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
